@@ -26,7 +26,7 @@ send({
 
 ```
 
-Return: Promise<void>
+Return: Promise\<undefined\>
 
 #### Error handling
 
