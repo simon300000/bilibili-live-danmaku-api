@@ -30,7 +30,7 @@ Return: Promise\<undefined\>
 
 #### Error handling
 
-If the process is not success, send() will reject.
+If the process is not successful, send() will reject.
 
 ## License
 
