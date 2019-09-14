@@ -1,0 +1,27 @@
+{
+  "name": "bilibili-live-danmaku-api",
+  "version": "1.0.0",
+  "description": "Send Danmaku to Bilibili Live Room",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon300000/bilibili-live-danmaku-api.git"
+  },
+  "keywords": [
+    "bilibili",
+    "danmaku",
+    "live"
+  ],
+  "author": "simon3000 <simon3000@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simon300000/bilibili-live-danmaku-api/issues"
+  },
+  "homepage": "https://github.com/simon300000/bilibili-live-danmaku-api#readme",
+  "dependencies": {
+    "got": "^9.6.0"
+  }
+}
