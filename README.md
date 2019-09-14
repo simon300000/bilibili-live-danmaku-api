@@ -1,4 +1,5 @@
-# bilibili live danmaku api
+# bilibili live danmaku api [![npm](https://img.shields.io/npm/v/bilibili-live-danmaku-api.svg)](https://www.npmjs.com/package/bilibili-live-danmaku-api)
+
 ## Install
 
 ```shell
