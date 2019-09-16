@@ -1,6 +1,6 @@
 {
   "name": "bilibili-live-danmaku-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Send Danmaku to Bilibili Live Room",
   "main": "index.js",
   "scripts": {
