@@ -11,6 +11,7 @@ module.exports = async ({ msg, SESSDATA, csrf, roomid }) => {
       msg,
       rnd: '1568480554',
       roomid,
+      mode: 1,
       csrf_token: csrf,
       csrf
     }
