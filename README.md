@@ -19,12 +19,14 @@ const msg = /* Message */
 const roomid = /* Roomid */
 const SESSDATA = /* Cookie: SESSDATA */
 const csrf = /* Cookie: bili_jct */
+// const extra = {} /* (optional) Extra data append to POST body */
 
 send({
   msg,
   roomid,
   SESSDATA,
   csrf
+  // extra
 })
 
 ```

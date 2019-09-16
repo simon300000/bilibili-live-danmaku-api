@@ -1,6 +1,6 @@
 const got = require('got')
 
-module.exports = async ({ msg, SESSDATA, csrf, roomid }) => {
+module.exports = async ({ msg, SESSDATA, csrf, roomid, extra = {} }) => {
   const { body } = await got('https://api.live.bilibili.com/msg/send', {
     headers: { Cookie: `SESSDATA=${SESSDATA}` },
     form: true,
@@ -13,7 +13,8 @@ module.exports = async ({ msg, SESSDATA, csrf, roomid }) => {
       roomid,
       mode: 1,
       csrf_token: csrf,
-      csrf
+      csrf,
+      ...extra
     }
   })
   if (body.code) {
